@@ -17,5 +17,7 @@ def integer_into_roman(x):
 
 
 entry_number = int(
-    input("Please enter in an integer to convert to roman numeral: "))
+    input(
+        "Please enter in an integer less than 1000 to convert to roman numeral: "
+    ))
 print(integer_into_roman(entry_number))
